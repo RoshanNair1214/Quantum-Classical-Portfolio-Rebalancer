@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vBc-Kd7LED35HAzGSoyWLIls7nshgiCX?authuser=1#scrollTo=cdVG_FMzYwGo)
+
 # Quantum-Classical-Portfolio-Rebalancer
 A multi-agent quantum-classical hybrid pipeline for NSE stock portfolio optimization using QAOA and Qiskit 1.0.
 
