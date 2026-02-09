@@ -1,9 +1,6 @@
 # Quantum-Classical-Portfolio-Rebalancer
 A multi-agent quantum-classical hybrid pipeline for NSE stock portfolio optimization using QAOA and Qiskit 1.0.
 
-# Quantum-Classical Portfolio Rebalancer
-**A Multi-Agent Hybrid Pipeline for NSE Stock Optimization using QAOA and Qiskit 1.0.**
-
 ## Project Architecture
 This project utilizes a **Multi-Agent Framework** to navigate a search space of $2^{25}$ possible portfolios[cite: 115]:
 - **Data Retrieval Agent:** Fetches cleaned NSE market data for 25 tickers.
