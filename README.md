@@ -6,10 +6,10 @@ A multi-agent quantum-classical hybrid pipeline for NSE stock portfolio optimiza
 
 ## Project Architecture
 This project utilizes a **Multi-Agent Framework** to navigate a search space of $2^{25}$ possible portfolios[cite: 115]:
-- **Data Retrieval Agent:** Fetches cleaned NSE market data for 25 tickers[cite: 64].
-- **Quantum Architect:** Translates financial risk into a QUBO Matrix[cite: 64].
-- **Optimization Agent:** Solves the Ising Hamiltonian using QAOA[cite: 64].
-- **Risk Analyst:** Benchmarks performance against the NIFTY 50[cite: 64].
+- **Data Retrieval Agent:** Fetches cleaned NSE market data for 25 tickers.
+- **Quantum Architect:** Translates financial risk into a QUBO Matrix.
+- **Optimization Agent:** Solves the Ising Hamiltonian using QAOA.
+- **Risk Analyst:** Benchmarks performance against the NIFTY 50.
 
 ## Methodology
 ### Phase 1 & 2: Data & QUBO Transformation
