@@ -4,13 +4,13 @@ This document provides a deep dive into the specific outputs, logs, and performa
 
 ---
 
-## 🔹 Phase 1: Data Cohort & Universe Construction
+## Phase 1: Data Cohort & Universe Construction
 The **Data Retrieval Agent** successfully built a diversified investment universe focused on the National Stock Exchange (NSE).
 * **Ticker Selection:** 25 high-liquidity stocks across 5 volatile sectors: IT, Banking, FMCG, Auto/EV, and Healthcare.
 * **Market Representative:** The cohort covers 65-70% of the total NIFTY 50 weightage.
 * **Data Integrity:** Utilized **Adjusted Close** prices to account for dividends, stock splits, and corporate actions.
 
-## 🔹 Phase 2: QUBO Transformation & Hamiltonian Engineering
+## Phase 2: QUBO Transformation & Hamiltonian Engineering
 The **Quantum Architect Agent** mapped financial constraints into a Quadratic Unconstrained Binary Optimization (QUBO) model.
 * **Optimization Goal:** Minimize $x^T Qx$ (Portfolio Variance) while strictly enforcing a budget of $B=10$ stocks.
 * **Energy Modeling:** $Energy = Risk + Penalty$.
@@ -18,7 +18,7 @@ The **Quantum Architect Agent** mapped financial constraints into a Quadratic Un
 
 
 
-## 🔹 Phase 3: Hybrid Optimization Solver Logs
+## Phase 3: Hybrid Optimization Solver Logs
 The **Optimization Agent** executed the search for the Ground State (the mathematically "perfect" portfolio).
 * **Ground State Energy:** Found a global minimum of **-49.997**.
 * **Significance:** This specific energy value proves the 10-stock budget constraint was met; any deviation would have resulted in a significantly higher energy state.
@@ -27,7 +27,7 @@ The **Optimization Agent** executed the search for the Ground State (the mathema
 
 
 
-## 🔹 Phase 4: Benchmarking & The "Alpha" Discovery
+## Phase 4: Benchmarking & The "Alpha" Discovery
 The **Risk Analyst Agent** validated the selected 10-stock cohort against the NIFTY 50 Index for the 2023-2025 period.
 
 ### Performance Scorecard
